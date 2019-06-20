@@ -4,15 +4,39 @@
   box-sizing: border-box;
 }
 
-.contain{
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 80vh;
-  width: 100%;
-}
-.center-box {
+/* .center-box {
   background: #8797AB;
   padding: 40px;
+} */
+
+.foot-main {
+  display: flex;
+  background-color: #96c6f3;
+  height: 25vh;
+}
+/* Login Page CSS */
+
+/* Footer CSS */
+
+.loc {
+  width: 32%;
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+.form-address {
+  display: inline-flex;
+}
+
+/* NewsLetter */
+
+.emailaddress {
+  display: flex;
+}
+
+
+.email-form {
+
 }

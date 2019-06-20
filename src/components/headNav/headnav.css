@@ -38,33 +38,6 @@ a{
   color: #226597;
 }
 
-.nav-one, .nav-two, .nav-three, .nav-four, .nav-five {
-  width: auto;
-  display: none;
-  margin-top: 5px;
-}
-
-li:hover .nav-one {
-  color: red;
-  display: block;
-}
-
-li:hover .nav-two {
-  color: red;
-  display: block;
-}
-
-li:hover .nav-three {
-  color: red;
-  display: block;
-}
-
-li:hover .nav-four {
-  color: red;
-  display: block;
-}
-
-li:hover .nav-five {
-  color: red;
-  display: block;
+li a:hover {
+  border-bottom: 2px solid red;
 }

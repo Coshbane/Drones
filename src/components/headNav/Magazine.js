@@ -3,7 +3,7 @@ import React from 'react';
 const Portfolio = () => {
   return (
     <div>
-      <h1>This is Portfolio</h1>
+      <h1>This is Magazine</h1>
       <div>
       </div>
       <div>

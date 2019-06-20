@@ -6,6 +6,7 @@ class Login extends Component {
     return (
       <div>
       This is Log in page
+    
       </div>
     )
   }

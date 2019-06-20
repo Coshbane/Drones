@@ -4,10 +4,13 @@
   "private": true,
   "dependencies": {
     "animate.css": "^3.7.0",
+    "element-react": "^1.4.34",
+    "element-theme-default": "^1.4.13",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-animated-css": "^1.0.5",
     "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.5.3",
     "react-image-gallery": "^0.8.16",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",

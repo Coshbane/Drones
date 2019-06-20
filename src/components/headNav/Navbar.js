@@ -7,11 +7,11 @@ const Navbar = () => {
     <Link to="/" className='logo'></Link>
       <div className='container'>
         <ul className="main-links">
-          <li><Link to="/" className='home-link'>Home</Link><hr className="nav-one" /></li>
-          <li><Link to="/portfolio" className='port-link'>Portfolio</Link><hr className="nav-two" /></li>
-          <li><Link to="/about" className="about-link">About</Link><hr className="nav-three" /></li>
-          <li><Link to="/contact" className='contact-link'>Contact</Link><hr className="nav-four" /></li>
-          <li><Link to="/login" className='login-link'>Login</Link><hr className="nav-five" /></li>
+          <li><Link to="/" className='home-link'>Home</Link></li>
+          <li><Link to="/magazine" className='port-link'>Magazine</Link></li>
+          <li><Link to="/about" className="about-link">About</Link></li>
+          <li><Link to="/contact" className='contact-link'>Contact</Link></li>
+          <li><Link to="/login" className='login-link'>Login</Link></li>
         </ul>
       </div>
     </nav>
