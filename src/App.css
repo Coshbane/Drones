@@ -11,8 +11,8 @@
 
 .foot-main {
   display: flex;
-  background-color: #96c6f3;
-  height: 25vh;
+  background-color: #1da1f2;
+  height: 20vh;
 }
 /* Login Page CSS */
 
@@ -20,7 +20,7 @@
 
 .loc {
   width: 32%;
-  color: black;
+  color: white;
   text-align: center;
   padding-top: 20px;
 }
@@ -38,5 +38,10 @@
 
 
 .email-form {
+}
 
+@media screen and (max-width: 200px) {
+  .foot-main{
+    height: 30vh;
+  }
 }

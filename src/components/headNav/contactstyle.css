@@ -1,0 +1,50 @@
+.main-conter {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-body {
+  height: 72vh;
+  text-align: center;
+  background-image: url(https://images.pexels.com/photos/2218141/pexels-photo-2218141.jpeg);
+  background-size: cover;
+}
+
+input {
+  width: 35vh;
+  height: 4vh;
+  font-size: 15px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+textarea {
+  font-size: 20px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+
+
+
+
+
+
+.form-submit {
+  display: inline-block;
+  /* border: 1px solid black; */
+  width: 130px;
+  height: 4vh;
+  font-size: 20px;
+  margin: 2px 0 3px 0;
+  background-color: #1da1f2;
+  border-radius: 3px;
+}
+
+.form-submit:hover {
+  background-color: #1081af;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}

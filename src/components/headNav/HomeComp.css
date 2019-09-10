@@ -19,10 +19,15 @@ html {
 }
 
 .contain{
+  text-align: center;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.news-letter {
+  text-align: center;
 }
 
 .word-on-image {
@@ -50,4 +55,49 @@ html {
   display: inline-block;
   color: white;
   padding: 2px 5px 2px 5px;
+}
+
+
+/* NewsLetter Design */
+
+.emailaddress {
+  display: block;
+  text-align: center;
+  height: 20vh;
+  margin: 20px 0 20px 0;
+}
+
+
+
+
+.email-form input[type='text'] {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+
+.email-name input[type=text] {
+  margin-right: 15px;
+}
+
+.mailist-leb {
+  margin-right: 5px;
+}
+
+.mailist-submit {
+  display: inline-block;
+  /* border: 1px solid black; */
+  width: 130px;
+  height: 4vh;
+  font-size: 20px;
+  margin: 5px 0 3px 0;
+  background-color: #1da1f2;
+  border-radius: 3px;
+}
+
+.mailist-submit:hover {
+  background-color: #1081af;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease-in-out;
 }

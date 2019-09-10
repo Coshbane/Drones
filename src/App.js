@@ -3,14 +3,19 @@ import './App.css';
 import './components/headNav/headnav.css';
 import './components/headNav/HomeComp.css';
 import './components/headNav/sliderz.css';
+import './components/headNav/loginstyle.css';
+import './components/headNav/contactstyle.css';
+import './components/headNav/aboutstyle.css';
+import './components/headNav/magazinestyle.css';
 import Navbar from './components/headNav/Navbar';
-import { BrowserRouter as Router, Route, NavLink, Link, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, NavLink, Redirect } from 'react-router-dom';
 import Home from './components/headNav/Home';
 import About from './components/headNav/About';
 import Contact from './components/headNav/Contact';
 import Magazine from './components/headNav/Magazine';
 import Login from './components/headNav/Login';
 import Footer from './components/headNav/footer';
+
 
 // constructor (props) {
 //   super(props);
@@ -37,7 +42,7 @@ class App extends Component {
         <Router>
           <Navbar />
           <Route path="/" exact component={Home} />
-          <Route path="/portfolio" component={Magazine} />
+          <Route path="/magazine" component={Magazine} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/login" component={Login} />

@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 //import Slider from '../headNav/slider';
 import { Animated } from "react-animated-css";
-import { Link } from 'react-router-dom';
-import ImageGallery from 'react-image-gallery';
-import { Carousel, CarouselItem } from 'element-react';
+import { Carousel } from 'element-react';
 import 'element-theme-default';
 // import NewsLetter from '../headNav/newsletter';
 //import farmData from '../DroneTypes/farmData';
@@ -46,17 +44,19 @@ class Home extends Component {
 
       <div className='emailaddress'>
 
-          <h3>Join Mailling List</h3>
+          <h3>Join Mailing List</h3>
 
         <div className='news-letter'>
 
           <div className='email-form'>
-            <label>Name:</label>
-            <input type="text" name="" />
+            <label className="mailist-leb">Name</label>
+            <input type="text" name="" Required />
 
-            <label>Email Address:</label>
+            <label className="mailist-leb">Email</label>
             <input type="email" name="emailaddress"/>
           </div>
+
+          <div className="mailist-submit">Submit</div>
 
         </div>
 

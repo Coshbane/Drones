@@ -1,0 +1,29 @@
+/* About Page Styling */
+
+.about-main {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.sub-head {
+  background-color: #63aabc;
+  text-align: center;
+  width: 100%;
+  height: 32vh;
+}
+
+.sub-message {
+  width: 100%;
+  height: 40vh;
+  background-color: #ebf5f5;
+  text-align: center;
+  display: flex;
+  justify-content:  center;
+  justify-items: center;
+}
+
+.sub-message-pg {
+width: 50%;
+margin-top: 5vh;
+}

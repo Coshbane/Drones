@@ -22,7 +22,7 @@ img{
 ul{
   text-align: center;
   list-style: none;
-  background-color: #ececec;
+  background-color: #1da1f2;
 }
 
 li{
@@ -35,9 +35,9 @@ li{
 
 a{
   text-decoration: none;
-  color: #226597;
+  color: white;
 }
 
 li a:hover {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid white;
 }

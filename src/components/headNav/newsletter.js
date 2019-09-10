@@ -10,14 +10,14 @@ class NewsLetter extends Component {
 
         <div className='news-letter'>
 
-          <div className='email-form'>
+          <div className='email-form email-name'>
             <label>Name:</label>
             <input type="text" name="" value="" />
           </div>
 
-          <div className='email-form'>
+          <div className='email-form email-address'>
             <label>Email Address:</label>
-            <input type="email" name="emailaddress" value="" />
+            <input type="email" name="email" value="" />
           </div>
 
         </div>

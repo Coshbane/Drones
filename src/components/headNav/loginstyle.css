@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content:  center;
+}
+
+.login{
+  height: 75vh;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  /* flex-direction: column; */
+  /* border: 1px solid black; */
+  /* display: inline-flex; */
+  background-image: url(https://images.pexels.com/photos/114907/pexels-photo-114907.jpeg);
+  background-size: cover;
+}
+
+.log {
+  width: 50%;
+  height: 60%;
+  /* border: 1px solid black; */
+  margin: 0 70px;
+  background-color: white;
+}
+
+.body-log {
+  height: 30vh;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  width: 50%;
+  position: relative;
+  height: 50px;
+  /* background: blue; */
+  overflow: hidden;
+}
+
+.form input {
+  width: 100%;
+  height: 100%;
+  /* color: #373a6d; */
+  padding-top: 20px;
+  border: none;
+  padding-left: 10px;
+  outline: none;
+}
+
+.form label {
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  /* background: blue; */
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+
+.form label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  heigth: 100%;
+  width: 100%;
+  border-bottom: 1px solid #5fa8de;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.cont-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.5s ease;
+}
+
+.form input:focus + .label-name .cont-name,
+.form input:valid + .label-name .cont-name {
+  transform: translateY(-150%);
+  font-size: 13px;
+  /* color: #5fa8de; */
+}
+
+.form input:focus + .label-name::after,
+.form input:valid + .label-name::after {
+  transform: translateY(0%);
+}
+
+.button-submit {
+  display: inline;
+  /* border: 1px solid black; */
+  border-radius: 5%;
+  width: 20%;
+  height: 11%;
+  text-align: center;
+  background-color: #1da1f2;
+}
+
+.button-submit:hover {
+  background-color: #96c6f3;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.buttn-sub {
+  color: white;
+}
+
+.buttn-sub:hover {
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+/* Register CSS */
+
+/* .register {
+  display: inline-flex;
+  background-image: url(https://images.pexels.com/photos/114907/pexels-photo-114907.jpeg);
+  background-size: cover;
+  height: 80%;
+  text-align: center;
+  align-content: space-between;
+} */
+
+.reg {
+  flex: auto;
+  align-self: flex-end;
+  width: 25px;
+  height: 30px;
+  margin: 40px;
+  padding-top: 3px;
+  /* border: 1px solid black; */
+  border-radius: 5%;
+  color: white;
+  /* margin-top: 360px; */
+  background-color: #1da1f2;
+}
+
+.reg:hover {
+  background-color: #5fa8de;
+  cursor: pointer;
+}
