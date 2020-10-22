@@ -42,26 +42,16 @@ class Home extends Component {
         </div>
       </section>
 
-      <div className='emailaddress'>
-
+      <section className='emailaddress'>
           <h3>Join Mailing List</h3>
-
-        <div className='news-letter'>
-
           <div className='email-form'>
             <label className="mailist-leb">Name</label>
             <input type="text" name="" Required />
-
             <label className="mailist-leb">Email</label>
             <input type="email" name="emailaddress"/>
           </div>
-
-          <div className="mailist-submit">Submit</div>
-
-        </div>
-
-      </div>
-
+          <input className="mailist-submit" type="button" value="Submit" />
+      </section>
       </div>
     )
   }

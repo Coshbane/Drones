@@ -1,36 +1,9 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
-
-
-const sites = [
-  {
-    name: "Harry Porter",
-    price: "$10",
-    id: 1122
-  },
-  {
-    name: "Game of Thrones",
-    price: "$15",
-    id: 1233
-  },
-  {
-    name: "Inception",
-    price: "$25",
-    id: 1344
-  }
-];
-
-const Button = styled.div`
-  width: 15px;
-`;
+// import styled from 'styled-components';
 
 
 
 class Magazine extends Component {
-  constructor(){
-    super()
-
-  }
 
 
   render() {
@@ -72,7 +45,7 @@ class Magazine extends Component {
         </div>
 
           <div className="vid-tag">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/TXFrCy47ue8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TXFrCy47ue8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
        

@@ -8,7 +8,7 @@ import './components/headNav/contactstyle.css';
 import './components/headNav/aboutstyle.css';
 import './components/headNav/magazinestyle.css';
 import Navbar from './components/headNav/Navbar';
-import { BrowserRouter as Router, Route, NavLink, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './components/headNav/Home';
 import About from './components/headNav/About';
 import Contact from './components/headNav/Contact';
@@ -36,9 +36,7 @@ import Footer from './components/headNav/footer';
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
       <div>
-        <div>
         <Router>
           <Navbar />
           <Route path="/" exact component={Home} />
@@ -48,9 +46,7 @@ class App extends Component {
           <Route path="/login" component={Login} />
           <Footer />
         </Router>
-        </div>
       </div>
-    </React.Fragment>
     )
   }
 }

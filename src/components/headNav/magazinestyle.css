@@ -1,24 +1,24 @@
-.over{
+.over {
   margin-bottom: 25vh;
 }
 
 .cam-title {
-  font-family: 'ZCOOL XiaoWei', serif;
+  font-family: "ZCOOL XiaoWei", serif;
   font-size: 10vh;
 }
 
 .wrapper {
   display: flex;
-  justify-content:  space-around;
+  justify-content: space-around;
   width: 100%;
   height: 30vh;
 }
 
 .cam-heading {
-  text-align:  center;
+  text-align: center;
 }
 
-.cam-drone{
+.cam-drone {
   text-align: center;
   /* border: 1px solid grey; */
   width: 30%;
@@ -27,8 +27,8 @@
 
 .cam-imageA {
   display: flex;
-  align-items:  center;
-  justify-content:  center;
+  align-items: center;
+  justify-content: center;
   background-image: url(https://fruitychutes.com/buyachute/images/Skycat/Skycat_DJI_Inspire_2_mount.jpg);
   background-size: cover;
   width: 100%;
@@ -38,18 +38,18 @@
 }
 
 .cam-imageA:hover {
-  -webkit-box-shadow: 10px 10px 4px -7px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 4px -7px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 4px -7px rgba(0,0,0,0.75);
-border-radius: 5px;
-transform: scale(0.9,0.9);
-height:  inherit;
+  -webkit-box-shadow: 10px 10px 4px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 4px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 4px -7px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  transform: scale(0.9, 0.9);
+  height: inherit;
 }
 
 .cam-imageB {
   display: flex;
-  align-items:  center;
-  justify-content:  center;
+  align-items: center;
+  justify-content: center;
   background-image: url(https://www.ttnews.com/sites/default/files/images/articles/dronemain.jpg);
   background-size: cover;
   width: 100%;
@@ -59,19 +59,19 @@ height:  inherit;
 }
 
 .cam-imageB:hover {
-  -webkit-box-shadow: 10px 10px 4px -7px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 4px -7px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 4px -7px rgba(0,0,0,0.75);
-border-radius: 5px;
-transform: scale(0.9,0.9);
-height:  inherit;
+  -webkit-box-shadow: 10px 10px 4px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 4px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 4px -7px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  transform: scale(0.9, 0.9);
+  height: inherit;
 }
 
 .cam-imageC {
   display: flex;
-  align-items:  center;
-  justify-content:  center;
-  background-image: url(https://www.prairiebusinessmagazine.com/sites/default/files/styles/16x9_860/public/field/image/070915.N.DR_.DRONES2.jpg);
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://images.pexels.com/photos/2050718/pexels-photo-2050718.jpeg);
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -80,19 +80,19 @@ height:  inherit;
 }
 
 .cam-imageC:hover {
-  -webkit-box-shadow: 10px 10px 4px -7px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 4px -7px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 4px -7px rgba(0,0,0,0.75);
-border-radius: 5px;
-transform: scale(0.9,0.9);
-height:  inherit;
+  -webkit-box-shadow: 10px 10px 4px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 4px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 4px -7px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  transform: scale(0.9, 0.9);
+  height: inherit;
 }
 
 .cam-button {
-  align-items:  baseline;
+  align-items: baseline;
   padding: 5px 15px;
   font-size: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .cam-button:hover {
@@ -108,12 +108,12 @@ height:  inherit;
   background-image: url(https://images.pexels.com/photos/681336/pexels-photo-681336.jpeg);
   width: 100%;
   height: 65vh;
-  justify-content:  center;
-  align-items:  center;
+  justify-content: center;
+  align-items: center;
 }
 
-iframe{
-  position:  absolute;
+iframe {
+  position: absolute;
   width: 60%;
   height: 60%;
 }
